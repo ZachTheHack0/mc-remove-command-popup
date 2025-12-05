@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "remove_command_popup",
+  "version": "1.0.0",
+  "name": "Remove Command Popup",
+  "description": "Removes the \"Command execution\" popup when trying to execute unrecognized commands from click elements.",
+  "authors": [
+    "Mine The Line"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ZachTheHack0/mc-remove-command-popup",
+    "sources": ""
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.mcreator.remove_command_popup.RemoveCommandPopupModClient"
+    ]
+  },
+  "mixins": ["remove_command_popup.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
