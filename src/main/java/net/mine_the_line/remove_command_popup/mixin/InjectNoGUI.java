@@ -1,4 +1,4 @@
-package net.mcreator.remove_command_popup.mixin;
+package net.mine_the_line.remove_command_popup.mixin;
 
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.*;
