@@ -11,6 +11,8 @@ build/
 .classpath
 .settings/
 
+run
+
 # OS files
 .DS_Store
 Thumbs.db

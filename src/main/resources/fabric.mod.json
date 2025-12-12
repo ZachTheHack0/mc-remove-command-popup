@@ -13,9 +13,12 @@
   },
   "license": "MIT",
   "environment": "client",
-  "entrypoints": [
-    "net.mine_the_line.remove_command_popup.RemoveCommandPopupModClient"
-  ],
+  "entrypoints": {
+    "client": [
+      "net.mine_the_line.remove_command_popup.RemoveCommandPopupModClient"
+    ]
+
+  },
   "mixins": ["remove_command_popup.mixins.json"],
   "depends": {
     "fabricloader": ">=0.18.1",
