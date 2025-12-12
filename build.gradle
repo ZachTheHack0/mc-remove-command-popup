@@ -15,10 +15,7 @@ repositories {
 
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
-    mappings loom.layered {
-        // DON'T TOUCH THIS, I SPENT WAY TOO LONG GETTING IT TO WORK ;-;
-        mappings file("mappings/yarn-1.21.10+build.3.tiny")
-    }
+    mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${loader_version}"
 }
 
